@@ -1,0 +1,57 @@
+body{
+ background: url(fondo4.jpg) no-repeat center center fixed;
+background-size: cover;
+position: relative;
+
+
+
+
+}
+
+.div-registro{
+  width: 30%;
+  background-color: #111111;
+   position: absolute;
+   margin-top:5%;
+   margin-left: 35%;
+   text-align: center;
+   color: #ffffff;
+
+
+}
+
+form{
+  padding: 4em 4em 2em;
+   box-shadow: 0 0 1em #222;
+    border-radius: 2px;
+    margin-top: -8%;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
+
+
+
+}
+
+.boton{
+margin-top: 3%;
+
+}
+
+label{
+  color: #6D7781;
+}
+
+p{
+  color: #6D7781;
+}
+
+.acc{
+  font-size: 12px;
+margin-top: 1%;
+}

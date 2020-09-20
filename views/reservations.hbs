@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="reservations.css">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+<script>
+$(function () {
+$("#datepicker").datepicker();
+});
+
+$(function () {
+$("#datepicker2").datepicker();
+});
+</script>
+
+
+
+<div class="menu-res">
+  <form action="/saveReserve" method="POST">
+  <div class="input-group mb-3">
+     <div class="input-group-prepend">
+      <label class="input-group-text" for="inputGroupSelect01">Room type</label>
+    </div>
+    <select class="custom-select" id="inputGroupSelect01" name="tipoHab">
+      <option selected>-</option>
+      <option value="1">Economic room</option>
+      <option value="2">Standard room</option>
+      <option value="3">Custom room</option>
+      <option value="4">Suite room</option>
+    </select>
+     <div class="input-group-prepend">
+    <label class="input-group-text" for="">Entry date</label>
+  </div>
+  <input type="text" id="datepicker" name="fechaEntrada">
+   <div class="input-group-prepend">
+  <label class="input-group-text" for="">Departure date</label>
+</div>
+  <input type="text" id="datepicker2" name="fechaSalida">
+  <div class="input-group-prepend">
+ <label class="input-group-text" for="">People</label>
+ </div>
+ <input type="text" id="" name="personas">
+
+ <button type="submit" class="btn btn-success" id="botonReserva">Reserve</button>
+  </div>
+</form>
+</div>

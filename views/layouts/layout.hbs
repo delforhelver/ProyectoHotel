@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>H&H Hotel</title>
+
+    <link  rel="icon"   href="bed.svg" type="image/png" />
+
+  <!-- bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="animate.css">
+
+  </head>
+  <body>
+
+
+    <div class="navbar1">
+
+<nav class="navbar fixed-top navbar-light bg-light justify-content-end">
+   <a title="H&H" href="/"><img src="logo3.png" class="img-logo img-fluid" alt="Responsive image"></img></a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/rooms">Rooms</a>
+              <a class="dropdown-item" href="/recreation">Recreation</a>
+              <a class="dropdown-item" href="/spa">Spa</a>
+              <a class="dropdown-item" href="/restaurant">Restaurant</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+    {{#if login}}
+    <div class="btn-group" role="group">
+    <button id="botonPerfil" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Profile
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="/reservations">Reservations</a>
+      <a class="dropdown-item" href="/profile">Profile</a>
+      <a class="dropdown-item" href="/logout">Log-out</a>
+    </div>
+  </div>
+  {{else}}
+  <a href="/register"><button type="button" class="boton-registro btn btn-success">Register</button></a>
+  <a href="/login"><button type="button" class="boton-registro btn btn-secondary" id="botonLogin">Login</button></a>
+    {{/if}}
+
+        </ul>
+      </div>
+    </div>
+
+<div class="div-infoly">
+
+<ion-icon name="call" size="large" class="call-icon"></ion-icon><p class="icon1-text">0291-999999999</p>
+<ion-icon name="mail" size='large'></ion-icon><p class="icon1-text">h&h@hotmail.com</p>
+<ion-icon name="location" size='large'></ion-icon><p class="icon1-text">Nowhere 562</p>
+
+</div>
+
+    {{{body}}}
+
+    <!-- Footer -->
+    	<section id="footer">
+    		<div class="container">
+    			<div class="row text-center text-xs-center text-sm-left text-md-left">
+    				<div class="col-xs-12 col-sm-4 col-md-4">
+    					<h5>Contact</h5>
+    					<ul class="list-unstyled quick-links">
+    						<li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
+    						<li><a href="/aboutus"><i class="fa fa-angle-double-right"></i>About</a></li>
+    						<li><a href="/contact"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+    						<li><a href="/register"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+    						<li><a href="/rooms"><i class="fa fa-angle-double-right"></i>Rooms</a></li>
+    					</ul>
+    				</div>
+    				<div class="col-xs-12 col-sm-4 col-md-4">
+    					<h5>Quick links</h5>
+    					<ul class="list-unstyled quick-links">
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+    					</ul>
+    				</div>
+    				<div class="col-xs-12 col-sm-4 col-md-4">
+    					<h5>Quick links</h5>
+    					<ul class="list-unstyled quick-links">
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+    						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+    						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+    					<ul class="list-unstyled list-inline social text-center">
+    						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+    						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+    						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+    						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+    						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+    					</ul>
+    				</div>
+    				</hr>
+    			</div>
+    		</div>
+    	</section>
+    	<!-- ./Footer -->
+
+  </body>
+  </html>

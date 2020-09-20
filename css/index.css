@@ -1,0 +1,233 @@
+body{
+margin-top: 60px;
+
+}
+
+.navbar1{
+margin: 1% 2%;
+
+}
+
+.img-fluid. {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.title{
+
+color: #FAF9F9;
+
+}
+
+.parrafo{
+color: #FAF9F9;
+text-align: center;
+
+
+}
+
+.contenedor {
+position: relative;
+
+}
+.contenedor2{
+  position: absolute;
+  top:40%;
+  left:40%;
+}
+
+.boton-registro{
+  margin-left: 2%;
+}
+
+#botonLogin{
+  margin-left: 6%;
+}
+#botonPerfil{
+margin-left: 6%;
+
+}
+
+.img-logo{
+position: absolute;
+top:-20%;
+left: 1%;
+}
+
+.contenedor3{
+color:#353535;
+text-align: center;
+margin-top:1%;
+
+}
+
+.card{
+
+display: inline-block;
+}
+
+.container{
+  margin-top: 1%;
+}
+
+#carouselExampleCaptions{
+width:98%;
+margin-left: 1%;
+margin-right: 1%;
+
+
+}
+
+.carousel-item img{
+height: 700px;
+margin-top: 3%;
+}
+
+.div-info{
+margin-top: 1%;
+width: 50%;
+float: right;
+margin-right: 1%;
+}
+
+.imageninfo{
+position: absolute;
+top:50%;
+left:15%;
+}
+
+.info2{
+
+  position: relative;
+  margin-top: 1%;
+
+}
+
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #838383 !important;
+    margin-top: 3%;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+.flex1{
+text-align: center;
+
+}
+
+.cont1{
+width: 80%;
+margin-left: 10%;
+}
+
+.contacto{
+width: 60%;
+
+    margin: 0 auto;
+
+}
+
+.title3{
+  text-align: center;
+
+}
+
+.botonform{
+margin-left: 45%;
+
+}
+
+.div-infoly{
+  width: 100%;
+height: 80px;
+background-color: #444444;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 1%;
+
+
+}
+
+
+.icon1-text{
+font-size: 22px;
+color: #ffffff;
+margin-top: 1%;
+margin-right: 2%;
+}
+
+#username{
+  margin-right: 80%;
+}
